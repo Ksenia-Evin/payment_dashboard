@@ -10,7 +10,7 @@ The client is interested in seeing the total rental income for this property and
 The backend is built with Python using Flask. It includes routes to fetch datasets from a JSON file and helper functions to return the data in an appropriate structure for the frontend.
 
 ### Frontend
-The frontend is built using React and Material UI. It includes components to filter data, display payment charts, and show total and individual tenant rental payments.
+The frontend is built using React and Material UI and recharts. It includes components to filter data, display payment charts, and show total and individual tenant rental payments.
 
 #### Running the Backend
 
