@@ -1,5 +1,3 @@
-from datetime import datetime
-
 def format_data(data):
 	formatted_data = {}
 
