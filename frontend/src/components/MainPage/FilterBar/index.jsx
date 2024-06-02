@@ -27,12 +27,12 @@ const FilterBar = (props) => {
         <Box mt={4} sx={{ display: 'flex', gap: 10}}>
         <StyledSelect value={selectedProperty} onChange={onPropertyChange}>
             {propertyNames.map((propertyName, index) => (
-            <MenuItem key={index} value={propertyName}>{propertyName}</MenuItem>
+                <MenuItem key={index} value={propertyName}>{propertyName}</MenuItem>
             ))}
         </StyledSelect>
         <StyledSelect value={selectedStore} onChange={onStoreChange}>
             {storeNames.map((storeName, index) => (
-            <MenuItem key={index} value={storeName}>{storeName}</MenuItem>
+                <MenuItem key={index} value={storeName}>{storeName}</MenuItem>
             ))}
         </StyledSelect>
         <DateRangePicker 
