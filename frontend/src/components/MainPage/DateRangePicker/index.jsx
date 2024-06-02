@@ -10,14 +10,14 @@ const DateRangePicker = (props) => {
         <LocalizationProvider dateAdapter={AdapterDayjs}>
          <Box sx={{ display: 'flex', gap: 10}}>
             <DatePicker
-            label="Start Date"
-            value={startDate}
-            onChange={onChangeStartDate}
+                label="Start Date"
+                value={startDate}
+                onChange={onChangeStartDate}
             />
             <DatePicker
-            label="End Date"
-            value={endDate}
-            onChange={onChangeEndDate}
+                label="End Date"
+                value={endDate}
+                onChange={onChangeEndDate}
             />
         </Box>
       </LocalizationProvider>
